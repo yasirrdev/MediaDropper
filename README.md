@@ -2,7 +2,6 @@
   <img src="logo.png" width="180" alt="MediaDropper logo">
 </p>
 
-<h1 align="center">🎧 MediaDropper</h1>
 
 <p align="center">
   Transforma cualquier video de YouTube en archivos descargables de audio o video con un simple clic.  
