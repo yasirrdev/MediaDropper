@@ -1,2 +1,2 @@
 # MediaDropper
-Repositorio que contiene el codigo fuente de convertidor de youtube a video y audio.
+ Repositorio para convertidor de videos de youtube a diferentes formatos de video y audio.
