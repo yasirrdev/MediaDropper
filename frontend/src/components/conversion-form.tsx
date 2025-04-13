@@ -1,4 +1,4 @@
- "use client"
+"use client"
 
 import type React from "react"
 
@@ -68,15 +68,15 @@ export default function ConversionForm() {
 
       // Crear URL para descargar el archivo
       const blob = new Blob([response.data])
-      let downloadUrl = '';
-      if (typeof window !== 'undefined') {
-        downloadUrl = window.URL.createObjectURL(blob);
-        const link = document.createElement('a');
-        link.href = downloadUrl;
-        link.setAttribute('download', `video.${format}`);
-        document.body.appendChild(link);
-        link.click();
-        link.remove();
+      let downloadUrl = ""
+      if (typeof window !== "undefined") {
+        downloadUrl = window.URL.createObjectURL(blob)
+        const link = document.createElement("a")
+        link.href = downloadUrl
+        link.setAttribute("download", `video.${format}`)
+        document.body.appendChild(link)
+        link.click()
+        link.remove()
       }
 
       // Obtener el nombre del archivo del header Content-Disposition
