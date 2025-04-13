@@ -1,7 +1,7 @@
 from flask import Blueprint, request, send_file, jsonify
 from flasgger.utils import swag_from
-from Backend.converter import download_and_convert
-from Backend.utils import validate_url, allowed_formats
+from converter import download_and_convert
+from utils import validate_url, allowed_formats
 
 converter_blueprint = Blueprint('converter', __name__)
 
